@@ -658,7 +658,7 @@ public class Preprocess extends InternalModule {
 					theTime += " " + expandNumber(Double.parseDouble(timeMatch.group(6)));
 				}
 			}
-			theTime += !pastNoon ? " a m" : " p m";
+//			theTime += !pastNoon ? " a m" : " p m";
 		} else {
 			if (!timeMatch.group(6).equals("00")) {
 				if (timeMatch.group(6).matches("0\\d")) {
